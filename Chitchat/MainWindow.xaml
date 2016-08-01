@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Chitchat"
         mc:Ignorable="d"
-        Title="Chit-Chat" Height="350" Width="525">
+        Title="Chit-Chat" Height="350" Width="525"
+        ResizeMode="NoResize">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="51*"/>
@@ -18,11 +19,11 @@
             <ColumnDefinition Width="61*"/>
         </Grid.ColumnDefinitions>
         <Image x:Name="headImage" HorizontalAlignment="Left" Height="138" Margin="12,11,0,0" VerticalAlignment="Top" Width="138" Grid.Column="1" Grid.Row="1"/>
-        <PasswordBox x:Name="pwd" HorizontalAlignment="Left" Margin="178,115,0,0" VerticalAlignment="Top" Width="216" Height="34" Grid.Column="1" Grid.Row="1"/>
-        <TextBox x:Name="uname" HorizontalAlignment="Left" Height="34" Margin="178,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="216" Grid.Column="1" Grid.Row="1"/>
+        <PasswordBox x:Name="pwd"  VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="178,115,0,0" VerticalAlignment="Top" Width="216" Height="34" Grid.Column="1" Grid.Row="1"/>
+        <TextBox x:Name="uname"  VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="34" Margin="178,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="216" Grid.Column="1" Grid.Row="1"/>
         <Label x:Name="un" Content="用户名" HorizontalAlignment="Left" Margin="178,11,0,0" VerticalAlignment="Top" Width="90" Grid.Column="1" Grid.Row="1"/>
         <Label x:Name="pass" Content="密码" HorizontalAlignment="Left" Margin="178,87,0,0" VerticalAlignment="Top" Width="90" Grid.Column="1" Grid.Row="1"/>
-        <Button x:Name="loginButton" Content="登录" HorizontalAlignment="Left" Margin="12,182,0,0" VerticalAlignment="Top" Width="166" Height="47" Background="#FF69DDDD" BorderBrush="White" Foreground="White" FontSize="20" BorderThickness="0" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="loginButton" Content="登录" HorizontalAlignment="Left" Margin="12,182,0,0" VerticalAlignment="Top" Width="166" Height="47" Background="#FF69DDDD" BorderBrush="White" Foreground="White" FontSize="20" BorderThickness="0" Grid.Column="1" Grid.Row="1" Click="loginButton_Click"/>
         <Button x:Name="cancelButton" Content="取消" HorizontalAlignment="Left" Margin="228,182,0,0" VerticalAlignment="Top" Width="166" Height="47" Background="#FF69DDDD" Foreground="White" BorderBrush="White" FontSize="20" BorderThickness="0" Grid.Column="1" Grid.Row="1"/>
 
     </Grid>

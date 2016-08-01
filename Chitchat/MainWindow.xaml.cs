@@ -23,5 +23,12 @@ namespace Chitchat
         {
             InitializeComponent();
         }
+
+        private void loginButton_Click(object sender, RoutedEventArgs e)
+        {
+            MaincontrolWindow mc = new MaincontrolWindow();
+            mc.Show();
+            this.Hide();
+        }
     }
 }
