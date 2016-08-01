@@ -39,5 +39,17 @@ namespace Chitchat
                 }
             }
         }
+
+        private void closeButton_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        private void closeButton_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            this.WindowState = WindowState.Minimized;
+            
+            //this.Hide();
+        }
     }
 }

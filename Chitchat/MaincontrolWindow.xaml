@@ -7,7 +7,12 @@
         mc:Ignorable="d"
         Title="" Height="670" Width="258" MinWidth="258" MinHeight="670" WindowStyle="None">
     <Grid x:Name="dragGrid">
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="556" Margin="0,106,0,0" VerticalAlignment="Top" Width="250"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="527" Margin="0,135,0,0" VerticalAlignment="Top" Width="250"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="75" Margin="10,32,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="uname" Content="昵称" HorizontalAlignment="Left" Margin="105,38,0,0" VerticalAlignment="Top" Width="135"/>
+        <Label x:Name="content" Content="content" HorizontalAlignment="Left" Margin="105,68,0,0" VerticalAlignment="Top" Width="135"/>
+        <Button x:Name="closeButton" Content="X" HorizontalAlignment="Left" Margin="220,0,0,0" VerticalAlignment="Top" Width="28" Height="22" Background="Red" BorderThickness="0" FontSize="16" Foreground="White" Click="closeButton_Click"/>
+        <Button x:Name="closeButton_Copy" Content="-" HorizontalAlignment="Left" Margin="192,0,0,0" VerticalAlignment="Top" Width="28" Height="22" Background="#FFB4B1B1" BorderThickness="0" FontSize="16" Foreground="White" Click="closeButton_Copy_Click"/>
 
     </Grid>
 </Window>
