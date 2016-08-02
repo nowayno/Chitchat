@@ -9,5 +9,18 @@
     <Grid x:Name="dragGrid">
         <Button x:Name="closeButton" Content="X" HorizontalAlignment="Left" Margin="547,0,0,0" VerticalAlignment="Top" Width="28" Height="22" Background="Red" BorderThickness="0" FontSize="16" Foreground="White" Click="closeButton_Click"/>
         <Button x:Name="closeButton_Copy" Content="-" HorizontalAlignment="Left" Margin="519,0,0,0" VerticalAlignment="Top" Width="28" Height="22" Background="#FFB4B1B1" BorderThickness="0" FontSize="16" Foreground="White" Click="closeButton_Copy_Click"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="323" Margin="0,63,0,0" VerticalAlignment="Top" Width="586"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="48" Margin="10,10,0,0" VerticalAlignment="Top" Width="53"/>
+        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Margin="79,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="Label" HorizontalAlignment="Left" Margin="79,40,0,0" VerticalAlignment="Top" Width="430"/>
+        <RichTextBox x:Name="richTextBox" HorizontalAlignment="Left" Height="96" Margin="0,391,0,0" VerticalAlignment="Top" Width="586">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Button x:Name="cancelButton" Content="取消" HorizontalAlignment="Left" Margin="421,492,0,0" VerticalAlignment="Top" Width="75" Background="#FF78CEFF" Foreground="White" BorderThickness="0" FontSize="14"/>
+        <Button x:Name="sendButton" Content="发送" HorizontalAlignment="Left" Margin="501,492,0,0" VerticalAlignment="Top" Width="75" Background="#FF78CEFF" Foreground="White" BorderThickness="0" FontSize="14"/>
     </Grid>
 </Window>
