@@ -7,7 +7,9 @@
         mc:Ignorable="d"
         Title="" Height="670" Width="258" MinWidth="258" MinHeight="670" WindowStyle="None">
     <Grid x:Name="dragGrid">
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="527" Margin="0,135,0,0" VerticalAlignment="Top" Width="250"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="527" Margin="0,135,0,0" VerticalAlignment="Top" Width="250">
+            <TreeView x:Name="treeView" Height="71" Width="240"/>
+        </ListBox>
         <Image x:Name="image" HorizontalAlignment="Left" Height="75" Margin="10,32,0,0" VerticalAlignment="Top" Width="75"/>
         <Label x:Name="uname" Content="昵称" HorizontalAlignment="Left" Margin="105,38,0,0" VerticalAlignment="Top" Width="135"/>
         <Label x:Name="content" Content="content" HorizontalAlignment="Left" Margin="105,68,0,0" VerticalAlignment="Top" Width="135"/>
