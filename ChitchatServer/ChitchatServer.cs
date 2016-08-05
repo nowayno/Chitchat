@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ChitchatServer
 {
-    class Program
+    class ChitchatServer
     {
         static void Main(string[] args)
         {
